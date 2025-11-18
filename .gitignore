@@ -1,0 +1,35 @@
+# Dataset directories (ignore large datasets in repo)
+/datasets/
+/datasets/*
+/working_eurosat_cnn/
+/working_eurosat_svm/
+/skin_cancer/
+
+# Model artifacts and weights
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.pb
+
+# Large numpy arrays and caches
+*.npy
+*.npz
+
+# Python virtual envs, caches
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# If you plan to store large models, consider using Git LFS instead of git
+# e.g., git lfs install; git lfs track "*.h5"; then add .gitattributes
